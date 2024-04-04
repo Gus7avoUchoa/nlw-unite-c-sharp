@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jE6KTPb+BN7KWhpt/Lt1Fjrw/AZX8vI2xeKFvzr2NWEYu5tkcOJjOqhuS9UfLO0leFAiqQMqE/0P2ObbnK7aag==",
+  "dgSpecHash": "kI1B3pi/lpyIu90fscoATIx89ZXJTqh/PCXXXeTGYWqlvtXsQfd2WvGwhq/WCMYv73MNSd4AP8v+W2RWPWyGmw==",
   "success": true,
-  "projectFilePath": "/home/dop/Source/repos/daniloopinheiro/PassIn/PassIn.Exceptions/PassIn.Exceptions.csproj",
+  "projectFilePath": "C:\\repo\\NLW\\nlw-unite-c-sharp\\PassIn\\PassIn.Exceptions\\PassIn.Exceptions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

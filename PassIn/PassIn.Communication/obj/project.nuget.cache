@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cu8q341zjhnqE3s1RaUwF1FpaYbA24YCSUNV7E8e6rOXBqAJvy1G+pt81eon0l0cm+D2Vd6tZcQJ7QMuUVWKOA==",
+  "dgSpecHash": "PL9AUPxHFl/tkTN+a0MeLMQj5osYRWclz9kQNr50P4d2tLRUUxtGP8d/7oOG6LngeKHYQqKCXaK3EI0eaWBAJA==",
   "success": true,
-  "projectFilePath": "/home/dop/Source/repos/daniloopinheiro/PassIn/PassIn.Communication/PassIn.Communication.csproj",
+  "projectFilePath": "C:\\repo\\NLW\\nlw-unite-c-sharp\\PassIn\\PassIn.Communication\\PassIn.Communication.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

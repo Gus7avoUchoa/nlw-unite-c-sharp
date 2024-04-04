@@ -13,22 +13,20 @@ public class EventsController : ControllerBase
     [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
     public IActionResult Register([FromBody] RequestEventJson request)
     {
-       var useCase = new RegisterEventUseCase();
-
+        var useCase = new RegisterEventUseCase();
         var response = useCase.Execute(request);
 
         return Created(string.Empty, response);
     }
 
-    [HttpPost]
-    [Route("{id}")]
-    [ProducesResponseType(typeof(ResponseEventJson), StatusCodes.Status201Created)]
-    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
-    public IActionResult GetById([FromBody] Guid id)
+    [HttpGet]
+    [Route("{eventId}")]
+    [ProducesResponseType(typeof(ResponseEventJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
+    public IActionResult GetById([FromRoute] Guid eventId)
     {
         var useCase = new GetEventByIdUseCase();
-
-        var response = useCase.Execute(id);
+        var response = useCase.Execute(eventId);
 
         return Ok(response); 
     }

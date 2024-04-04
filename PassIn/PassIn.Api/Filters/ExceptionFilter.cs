@@ -12,13 +12,9 @@ public class ExceptionFilter : IExceptionFilter
     {
         var result = context.Exception is PassInException;
         if (result)
-        {
             HandleProjectException(context);
-        }
         else
-        {
             ThrowUnkowError(context);
-        }
     }
 
     private void HandleProjectException(ExceptionContext context)
@@ -46,5 +42,4 @@ public class ExceptionFilter : IExceptionFilter
         context.HttpContext.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
         context.Result = new ObjectResult(new ResponseErrorJson("Unknown error"));
     }
-
 }

@@ -9,3 +9,15 @@
 /home/dop/Source/repos/daniloopinheiro/PassIn/PassIn.Communication/obj/Debug/net8.0/refint/PassIn.Communication.dll
 /home/dop/Source/repos/daniloopinheiro/PassIn/PassIn.Communication/obj/Debug/net8.0/PassIn.Communication.pdb
 /home/dop/Source/repos/daniloopinheiro/PassIn/PassIn.Communication/obj/Debug/net8.0/ref/PassIn.Communication.dll
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\bin\Debug\net8.0\PassIn.Communication.deps.json
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\bin\Debug\net8.0\PassIn.Communication.dll
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\bin\Debug\net8.0\PassIn.Communication.pdb
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.AssemblyInfoInputs.cache
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.AssemblyInfo.cs
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.csproj.CoreCompileInputs.cache
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.sourcelink.json
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.dll
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\obj\Debug\net8.0\refint\PassIn.Communication.dll
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\obj\Debug\net8.0\PassIn.Communication.pdb
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Communication\obj\Debug\net8.0\ref\PassIn.Communication.dll

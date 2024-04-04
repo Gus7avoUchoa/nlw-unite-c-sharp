@@ -15,18 +15,18 @@ public class GetAllAttendeesByEventIdUseCase
     }
     public ResponseAllAttendeesJson Execute(Guid eventId)
     {
-        var entity = _dbContext.Events.Include(ev => ev.Attendees).ThenInclude(attendee => attendee.CheckIn).FirstOrDefault();
-        if (entity is null)
-            throw new NotFoundException("An event with this id does not exist.");
-        
-        return new ResponseAllAttendeesJson
+        var entity = _dbContext.Events.Include(ev => ev.Attendees).ThenInclude(att => att.CheckIn).FirstOrDefault(ev => ev.Id == eventId);
+        return entity is null
+            ? throw new NotFoundException("An event with this id does not exist.")
+            : new ResponseAllAttendeesJson
         {
             Attendees = entity.Attendees.Select(attendee => new ResponseAttendeeJson
             {
                 Id = attendee.Id,
                 Name = attendee.Name,
                 Email = attendee.Email,
-                CheckedInAt = attendee.CheckIn?.Created_at
+                CreatedAt = attendee.Created_At,
+                CheckedInAt = attendee.CheckIn?.Created_at,
             }).ToList()
         };
     }

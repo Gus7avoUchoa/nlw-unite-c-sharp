@@ -1,17 +1,22 @@
-using Microsoft.EntityFrameworkCore;
 using PassIn.Communication.Requests;
 using PassIn.Communication.Responses;
 using PassIn.Exceptions;
 using PassIn.Infrastructure;
 
 namespace PassIn.Application.UseCases.Events.Register;
+
 public class RegisterEventUseCase
 {
+    private readonly PassInDbContext _dbContext;
+
+    public RegisterEventUseCase()
+    {
+        _dbContext = new PassInDbContext();
+    }
+
     public ResponseEventJson Execute(RequestEventJson request)
     {
         Validate(request);
-
-        var dbContext = new PassInDbContext();
 
         var entity = new Infrastructure.Entities.Event
         {   
@@ -21,30 +26,28 @@ public class RegisterEventUseCase
             Slug = request.Title.ToLower().Replace(" ", "-"),
         };
 
-        dbContext.Events.Add(entity);
-        dbContext.SaveChanges();
+        _dbContext.Events.Add(entity);
+        _dbContext.SaveChanges();
 
         return new ResponseEventJson
         {
-            Id = entity.Id
+            Id = entity.Id,
+            Title = entity.Title,
+            Details = entity.Details,
+            MaximumAttendees = entity.Maximum_Attendees,
+            AttendeesAmount = 0, // TODO: Implement this
         };
     }
 
-    public void Validate(RequestEventJson request)
+    public static void Validate(RequestEventJson request)
     {
         if (request.MaximumAttendees <= 0)
-        {
             throw new ErrorOnValidationException("The Maximum attendes is invalid.");
-        }
 
         if (string.IsNullOrWhiteSpace(request.Title))
-        {
             throw new ErrorOnValidationException("The title is invalid.");
-        }
 
         if (string.IsNullOrWhiteSpace(request.Details))
-        {
             throw new ErrorOnValidationException("The title is invalid.");
-        }
     }
 }

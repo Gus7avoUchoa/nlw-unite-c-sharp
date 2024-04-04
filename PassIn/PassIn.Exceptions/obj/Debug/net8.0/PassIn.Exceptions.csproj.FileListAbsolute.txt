@@ -9,3 +9,15 @@
 /home/dop/Source/repos/daniloopinheiro/PassIn/PassIn.Exceptions/obj/Debug/net8.0/refint/PassIn.Exceptions.dll
 /home/dop/Source/repos/daniloopinheiro/PassIn/PassIn.Exceptions/obj/Debug/net8.0/PassIn.Exceptions.pdb
 /home/dop/Source/repos/daniloopinheiro/PassIn/PassIn.Exceptions/obj/Debug/net8.0/ref/PassIn.Exceptions.dll
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\bin\Debug\net8.0\PassIn.Exceptions.deps.json
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\bin\Debug\net8.0\PassIn.Exceptions.dll
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\bin\Debug\net8.0\PassIn.Exceptions.pdb
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\obj\Debug\net8.0\PassIn.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\obj\Debug\net8.0\PassIn.Exceptions.AssemblyInfoInputs.cache
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\obj\Debug\net8.0\PassIn.Exceptions.AssemblyInfo.cs
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\obj\Debug\net8.0\PassIn.Exceptions.csproj.CoreCompileInputs.cache
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\obj\Debug\net8.0\PassIn.Exceptions.sourcelink.json
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\obj\Debug\net8.0\PassIn.Exceptions.dll
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\obj\Debug\net8.0\refint\PassIn.Exceptions.dll
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\obj\Debug\net8.0\PassIn.Exceptions.pdb
+C:\repo\NLW\nlw-unite-c-sharp\PassIn\PassIn.Exceptions\obj\Debug\net8.0\ref\PassIn.Exceptions.dll
